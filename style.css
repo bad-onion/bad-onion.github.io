@@ -1,0 +1,70 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(38, 38, 38), rgb(20, 20, 20));
+    /* background-color: rgb(15, 15, 15); */
+}
+
+#warning {
+    width: 325px;
+    height: 240px;
+    /* background: linear-gradient(rgb(30, 30, 30), rgb(15, 15, 15)); */
+    /* background: rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border-color: rgb(15, 15, 15);
+    border-width: 2px; */
+    border-radius: 3%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+#redtext {
+    color: rgb(237, 78, 78);
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+#moreinfo {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-left: 10%;
+}
+
+#understand {
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(rgb(60, 64, 66), rgb(32, 35, 36));
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    cursor:pointer;
+}
+
+#topbar {
+    width: 100%;
+    height: 25px;
+    margin: 0;
+    background: linear-gradient(rgb(45, 45, 45), rgb(20, 20, 20));
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#understand:hover {
+    background: linear-gradient(rgb(41, 45, 46), rgb(21, 21, 21));
+}
+#understand:active {
+    background: linear-gradient(#737D7F, #414344);
+}
